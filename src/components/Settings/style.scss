@@ -1,0 +1,26 @@
+form.settings {
+  right: 20%;
+  padding: 2rem;
+  position: fixed;
+  z-index: 2;
+  max-width: 18%;
+  input {
+    color: rgb(109, 15, 109);
+    border-radius: 10px;
+    border: solid 1px black;
+    font-size: 1rem;
+  }
+
+  input.input-email, input.input-password {
+    color: #000;
+    margin: 8px;
+    padding: 5px;
+  }
+
+  input.input-submit {
+    color: white;
+    background-color: rgb(109, 15, 109);
+    border: none;
+    padding: 5px;
+  }
+}
